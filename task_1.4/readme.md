@@ -1,25 +1,25 @@
-# Командный интерпритатор 
-При запуске выводится приглашение, и пользователь вводит имя и аргументы программы, которую желает запустить. 
-Программа позволяет запускать файлы которые находятся в томже каталоге ( `sum` и `max_value`) или которые установлены в системе.
+# # Command Interpreter 
+At startup, a prompt is displayed, and the user enters the name and arguments of the program that he wants to run. 
+The program allows you to run files that are located in the same directory (`sum` and `max_value`) or that are installed on the system.
 
 
-## Как использовать
+## How to use
 
-1. **Компиляция программы:**
-    - make
+1. **Compilation of the program:**
+- make
 
-2. **Запуск программы:**
-    - ./program 
+2. **Starting the program:**
+- ./program 
 
-3. **Примеры использования:**
+3. **Usage Examples:**
 
-- Если введенная команда соответствует файлу в текущей директории, программа выполнит этот файл:  
-  Пример:  
+- If the entered command corresponds to a file in the current directory, the program will execute this file:
+Example:  
   `sum 1 2 3 4`      
-  или  
+  or  
   `max_value 12 1 3 33 2`    
-- Если введенная команда не соответствует файлу в текущей директории, программа попытается выполнить ее как стандартную команду:  
-  Пример:  
+- If the entered command does not match the file in the current directory, the program will try to execute it as a standard command:
+Example:  
   `ls -l`    
-  или  
-  `nano`  
+  or  
+  `nano`
