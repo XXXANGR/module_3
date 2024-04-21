@@ -1,14 +1,5 @@
-#include <errno.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <unistd.h>
+#include "main.h"
 
-float square_area(float length) 
-{ 
-  return length * length; 
-}
 
 int main(int argc, char *argv[]) {
   pid_t pid;
