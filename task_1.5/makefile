@@ -1,5 +1,5 @@
 #CFLAGS = -Werror -Wextra -Wall
-SRCS = $(wildcard *.c)
+SRCS = $(wildcard src/*.c)
 OBJS = $(SRCS:.c=.o)
 CC = gcc
 
