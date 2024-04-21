@@ -1,15 +1,4 @@
-#include <errno.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <unistd.h>
-
-void print_value_arg(int argc, char *argv[]){
-    for(int i = 0; i < argc; i++){
-        printf("argv[%d]: %s\n", i, argv[i]);        
-    }
-}
+#include "main.h"
 
 int main(int argc, char *argv[]) {
   pid_t pid;
